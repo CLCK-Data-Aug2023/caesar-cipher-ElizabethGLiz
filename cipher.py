@@ -37,4 +37,4 @@ for char in sentence:
     if char in substitution_dict:
         char = substitution_dict[char]
     secret_sentence += char
-print(secret_sentence)
+print("The encrypted sentence is: " + secret_sentence)
